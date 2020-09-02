@@ -46,18 +46,19 @@ a {
 
   @media screen and (min-width: 768px) {
     position: relative;
-    height: 399px;
-    background-image: url(../../img/Ellipse-hero-shop-number.svg),
+    /*height: 399px;*/
+    background-image: url(../../img/logo.svg),
+      url(../../img/Ellipse-hero-shop-number.svg),
       url(../../img/Ellipse-hero-shop-number.svg),
       url(../../img/slider-pic-milk-tablet.svg),
       url(../../img/slider-pic-icecream-tablet.svg),
       url(../../img/ice-cream-mob.svg), url(../../img/Ellipse-img-tablet.svg),
       url(../../img/bg-image-mob.jpg);
     background-repeat: no-repeat;
-    background-position: top 132px right 28px, top 77px right 25px,
-      bottom 28px left 34px, bottom right 34px, bottom right 247px,
-      center right 137px, center;
-    background-size: 16px, 16px, 124px, 168px, 143px, 324px, cover;
+    background-position: top 44px left 34px, top 132px right 28px,
+      top 77px right 25px, bottom 28px left 34px, bottom right 34px,
+      bottom right 247px, bottom 46px right 137px, center;
+    background-size: 199px, 16px, 16px, 124px, 168px, 143px, 324px, cover;
     padding-top: 193px;
     padding-left: 20px;
   }
@@ -65,17 +66,18 @@ a {
   @media screen and (min-width: 1200px) {
     position: relative;
     height: 665px;
-    background-image: url(../../img/Ellipse-hero-shop-number.svg),
+    background-image: url(../../img/logo.svg),
+      url(../../img/Ellipse-hero-shop-number.svg),
       url(../../img/Ellipse-hero-shop-number.svg),
       url(../../img/slider-pic-milk-tablet.svg),
       url(../../img/slider-pic-icecream-tablet.svg),
       url(../../img/ice-cream-mob.svg), url(../../img/Ellipse-img-tablet.svg),
       url(../../img/bg-image-mob.jpg);
     background-repeat: no-repeat;
-    background-position: top 217px right 104px, top 125px right 100px,
-      bottom 45px left 77px, bottom right 109px, bottom right 450px,
-      center right 267px, center;
-    background-size: 30px, 30px, 188px, 293px, 236px, 538px, cover;
+    background-position: top 37px left 46px, top 217px right 104px,
+      top 125px right 100px, bottom 45px left 77px, bottom right 109px,
+      bottom right 450px, center right 267px, center;
+    background-size: 199px, 30px, 30px, 188px, 293px, 236px, 538px, cover;
     padding-top: 193px;
     padding-left: 20px;
   }
@@ -91,7 +93,7 @@ a {
     line-height: 150%;
     color: #ffffff;
     margin-left: 154px;
-    margin-top: 66px;
+    margin-top: 207px;
     margin-bottom: 7px;
   }
   .hero-shop-item-one,
@@ -140,7 +142,8 @@ a {
     width: 18px;
     height: 18px;
     border-radius: 50%;
-    background-image: url(../../img/arrow-right/3.svg);
+    background-image: url(../../img/arrow.svg);
+    background-position: center;
     border-color: transparent;
     margin-left: 154px;
   }
@@ -157,7 +160,7 @@ a {
     line-height: 140%;
     color: #ffffff;
     margin-left: 294px;
-    margin-top: 112px;
+    margin-top: 285px;
     margin-bottom: 20px;
   }
   .hero-shop-item-one,
@@ -203,12 +206,14 @@ a {
     right: 112px;
   }
   .hero-button {
-    width: 18px;
-    height: 18px;
+    width: 26px;
+    height: 26px;
     border-radius: 50%;
-    background-image: url(../../img/arrow-right/3.svg);
+    background-image: url(../../img/arrow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
     border-color: transparent;
-    margin-left: 154px;
+    margin-left: 295px;
   }
 }
 // ГЛАВНЫЙ ЗАГОЛОВОК
@@ -229,16 +234,15 @@ a {
   }
   @media screen and (min-width: 768px) {
     position: absolute;
-    top: 102px;
+    top: 115px;
+    left: 34px;
     font-family: Titan One;
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
-
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #ffffff;
-    margin-bottom: 20px;
   }
   .hero-title-span {
     font-family: Titan One;
@@ -253,7 +257,8 @@ a {
   @media screen and (min-width: 1200px) {
     position: absolute;
     top: 171px;
-    left: 115px;
+    left: 113px;
+    width: 277px;
     font-family: Titan One;
     font-style: normal;
     font-weight: normal;
@@ -262,7 +267,6 @@ a {
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: #ffffff;
-    margin-bottom: 20px;
   }
   .hero-title-span {
     font-family: Titan One;
@@ -292,7 +296,20 @@ a {
   li:not(:last-child) {
     margin-right: 8px;
   }
+  @media screen and (min-width: 768px) {
+    position: absolute;
+    top: 220px;
+    left: 34px;
+    display: flex;
+
+    li:not(:last-child) {
+      margin-right: 8px;
+    }
+  }
   @media screen and (min-width: 1200px) {
+    position: absolute;
+    top: 325px;
+    left: 115px;
     display: flex;
     margin-top: 25px;
     li:not(:last-child) {
@@ -309,14 +326,6 @@ a {
   text-align: center;
   border-radius: 20px;
   padding-top: 6px;
-  @media screen and (min-width: 1200px) {
-    font-family: "DM Sans", sans-serif;
-    font-size: 14px;
-    line-height: 1.28;
-    text-align: center;
-    border-radius: 20px;
-    padding-top: 6px;
-  }
 }
 
 .main-button {
@@ -338,9 +347,8 @@ a {
     font-family: "DM Sans", sans-serif;
     font-size: 14px;
     line-height: 1.28;
-    text-align: center;
     border-radius: 20px;
-    padding-top: 6px;
+    padding-top: 10px;
   }
 
   .main-button {
